@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
+      <head>
+        <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/sf-pro-display" />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
